@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.typekit.net/qau8rnj.css" />
+    <title>mailmee.io - email & sms marketing</title>
+  </head>
+  <body class="">
+    <div class="relative w-full h-screen overflow-x-hidden">
+      <div class="">
+        <header class="py-4 md:py-6" x-data="{expanded: false}">
+          <div class="px-4 mx-auto sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between">
+              <div class="flex-shrink-0">
+                <a
+                  href="#"
+                  title=""
+                  class="flex rounded outline-none focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"
+                >
+                  <img
+                    class="w-auto h-20"
+                    src="resources/Logo.png"
+                    alt="mailmee.io's logo"
+                  />
+                </a>
+              </div>
+
+              <div class="flex lg:hidden">
+                <button
+                  type="button"
+                  class="text-gray-900"
+                  @click="expanded = !expanded"
+                  :aria-expanded="expanded"
+                >
+                  <!-- <span x-show="!expanded" aria-hidden="true">
+                  <svg
+                    class="w-7 h-7"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.5"
+                      d="M4 6h16M4 12h16M4 18h16"
+                    />
+                  </svg>
+                </span>
+
+                <span x-show="expanded" aria-hidden="true">
+                  <svg
+                    class="w-7 h-7"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M6 18L18 6M6 6l12 12"
+                    />
+                  </svg>
+                </span> -->
+                  <a
+                    href="#"
+                    title=""
+                    class="inline-flex items-center justify-center border-b-2 border-mm-purple px-3 text-base font-bold leading-7 text-black transition-all duration-200 hover:border-opacity-75 font-pj focus:"
+                    role="button"
+                  >
+                    contact us
+                  </a>
+                </button>
+              </div>
+
+              <div
+                class="hidden lg:flex lg:ml-16 lg:items-center lg:justify-center lg:space-x-10 xl:space-x-16"
+              >
+                <!-- <a
+                  href="#"
+                  title=""
+                  class="text-base font-bold text-gray-900 transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"
+                >
+                  about
+                </a>
+
+                <a
+                  href="#"
+                  title=""
+                  class="text-base font-bold text-gray-900 transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"
+                >
+                  what we do
+                </a>
+
+                <a
+                  href="#"
+                  title=""
+                  class="text-base font-bold text-gray-900 transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"
+                >
+                  blog
+                </a>
+               -->
+              </div>
+
+              <div
+                class="hidden lg:ml-auto lg:flex lg:items-center lg:space-x-10"
+              >
+                <a
+                  href="#"
+                  title=""
+                  class="inline-flex items-center justify-center border-b-2 border-mm-purple px-3 text-base font-bold leading-7 text-black transition-all duration-200 hover:border-opacity-75 font-pj focus:"
+                  role="button"
+                >
+                  contact us
+                </a>
+              </div>
+            </div>
+
+            <!-- phone -->
+
+            <!-- <nav class="lg:hidden" x-show="expanded" x-collapse>
+              <div class="px-1 py-8">
+                <div class="grid gap-y-7">
+                  <a
+                    href="#"
+                    title=""
+                    class="flex items-center p-3 -m-3 text-base font-bold text-gray-900 transition-all duration-200 rounded-xl hover:bg-gray-50 focus:outline-none font-pj focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"
+                  >
+                    about
+                  </a>
+
+                  <a
+                    href="#"
+                    title=""
+                    class="flex items-center p-3 -m-3 text-base font-bold text-gray-900 transition-all duration-200 rounded-xl hover:bg-gray-50 focus:outline-none font-pj focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"
+                  >
+                    what we do
+                  </a>
+
+                  <a
+                    href="#"
+                    title=""
+                    class="flex items-center p-3 -m-3 text-base font-bold text-gray-900 transition-all duration-200 rounded-xl hover:bg-gray-50 focus:outline-none font-pj focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"
+                  >
+                    blog
+                  </a>
+
+                  <a
+                    href="#"
+                    title=""
+                    class="inline-flex items-center justify-center px-6 py-3 text-base font-bold leading-7 text-white transition-all duration-200 bg-gray-900 border border-transparent rounded-xl hover:bg-gray-600 font-pj focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+                    role="button"
+                  >
+                    contact us
+                  </a>
+                </div>
+              </div>
+            </nav> -->
+          </div>
+        </header>
+      </div>
+
+      <!-- Hero Section -->
+
+      <section
+        class="absolute top-1/2 right-1/2 translate-x-1/2 -translate-y-1/2 w-full"
+      >
+        <div class="px-4 mx-auto sm:px-6 lg:px-8">
+          <div class="text-center mx-auto max-w-5xl">
+            <h1
+              class="text-5xl font-bold text-gray-900 sm:text-6xl lg:text-7xl pb-4"
+            >
+              Grow your business<br class="hidden md:block" />
+              with email & sms marketing
+            </h1>
+            <p class="pb-8">
+              Grow your business using marketing that generates on average 4x
+              returns!
+            </p>
+            <div class="flex justify-center items-center gap-4">
+              <a class="text-base bg-mm-purple px-10 py-2 text-white font-bold"
+                >start now</a
+              >
+              <a
+                class="text-base bg-white px-10 py-2 text-mm-purple font-bold shadow-xl"
+                >is this for me?</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <img
+        class="absolute left-8 lg:left-16 bottom-32 w-28 lg:w-56 h-auto -rotate-[30deg]"
+        src="resources/post-box.svg"
+      />
+      <img
+        class="absolute -right-1 top-32 w-28 lg:w-56 h-auto rotate-[15deg] overflow-x-hidden"
+        src="resources/mail-phone.svg"
+      />
+    </div>
+
+    <!-- NEXT SECTION -->
+
+    <div
+      class="relative md:w-fit -top-20 md:-top-24 mx-auto text-center grid grid-rows-1 grid-flow-col items-center overflow-x-scroll"
+    >
+      <div class="h-full w-60 bg-mm-grey p-5">
+        <h6 class="text-black font-bold text-xl lg:text-2xl pb-2">
+          Increase your sales
+        </h6>
+        <p class="text-sm md:text-base pb-6">
+          Get an average 4x ROI on all email marketing efforts.
+        </p>
+        <img src="resources/increase-sales.svg" class="w-auto h-40" />
+      </div>
+      <div class="h-full w-60 bg-mm-purple p-5">
+        <h6 class="text-white font-bold text-xl lg:text-2xl pb-2">
+          Grow customer relations
+        </h6>
+        <p class="text-sm md:text-base pb-6 text-white opacity-75">
+          Build loyalty and trust with the customers you love so much.
+        </p>
+        <img src="resources/customer-relations.svg" class="w-auto h-40" />
+      </div>
+      <div class="h-full w-60 bg-mm-grey p-5">
+        <h6 class="text-black font-bold text-xl lg:text-2xl pb-2">
+          Increase your sales
+        </h6>
+        <p class="text-sm md:text-base pb-6">
+          Get an average 4x ROI on all email marketing efforts.
+        </p>
+        <img src="resources/decrease-churn.svg" class="w-auto h-40" />
+      </div>
+    </div>
+
+    <!-- Contact us -->
+
+    <section class="py-12 bg-mm-grey sm:py-16">
+      <div class="px-4 mx-auto sm:px-6 lg:px-8">
+        <div
+          class="grid grid-cols-1 lg:grid-cols-2 gap-y-8 gap-x-36 items-center"
+        >
+          <div>
+            <h2
+              class="text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl"
+            >
+              Begin now, with a 30 minute call
+            </h2>
+            <p class="mt-2 text-base font-normal text-black lg:mt-5 pb-6">
+              If you’re interested but you’re just not sure or you want more
+              information, click the book now button down below and book a time
+              when you’re free and we can call and answer all of your
+              questions..
+            </p>
+            <div class="flex justify-start items-center gap-4 pb-8">
+              <a
+                href="https://calendly.com/luke-mailmeeio/30min"
+                target="_blank"
+                class="text-base bg-mm-purple px-10 py-2 text-white font-bold"
+                >Schedule a call</a
+              >
+            </div>
+            <div class="flex justify-start items-center gap-4">
+              <div class="flex justify-start items-center gap-2">
+                <img
+                  src="resources/phone.svg"
+                  class="h-6 w-auto bg-gray-200 rounded-full p-1"
+                />
+                <a
+                  href="tel:+27661018392"
+                  target="_blank"
+                  class="text-lg text-black font-bold"
+                  >Phone us</a
+                >
+              </div>
+              <div class="flex justify-start items-center gap-2">
+                <div class="w-fit h-fit bg-gray-200 rounded-full">
+                  <img src="resources/email.svg" class="h-6 w-auto p-1" />
+                </div>
+                <a
+                  href="mailto:luke@mailmee.io"
+                  target="_blank"
+                  class="text-lg text-black font-bold"
+                  >Email us</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <img
+              class="object-cover w-full h-auto shadow-xl"
+              src="resources/calendar.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <section class="py-4 bg-mm-grey sm:py-5">
+      <div class="px-4 mx-auto sm:px-6 lg:px-8">
+        <div class="flex justify-end font-bold">
+          <p>mailmee.io © 2023 | All rights reserved.</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
