@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="og:title" content="mailmee.io - email & sms marketing" />
+    <meta
+      name="og:description"
+      content="Turn existing customers into loyal fans using personalised and targetted
+    email & sms marketing. Start today, time is money."
+    />
+    <meta name="og:img" content="" />
+    <link rel="icon" href="resources/favicon.png" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.typekit.net/qau8rnj.css" />
+    <title>mailmee.io - email & sms marketing</title>
+    <meta
+      name="description"
+      content="Turn existing customers into loyal fans using personalised and targetted
+    email & sms marketing. Start today, time is money."
+    />
+  </head>
+  <body class="">
+    <header class="py-4 md:py-6" x-data="{expanded: false}">
+      <div class="px-4 mx-auto sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between">
+          <div class="flex-shrink-0">
+            <a
+              href="#"
+              title=""
+              class="flex rounded outline-none focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"
+            >
+              <img
+                class="w-auto h-20"
+                src="resources/Logo.png"
+                alt="mailmee.io's logo"
+              />
+            </a>
+          </div>
+
+          <div class="flex lg:hidden">
+            <button
+              type="button"
+              class="text-gray-900"
+              @click="expanded = !expanded"
+              :aria-expanded="expanded"
+            >
+              <!-- <span x-show="!expanded" aria-hidden="true">
+              <svg
+                class="w-7 h-7"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+            </span>
+
+            <span x-show="expanded" aria-hidden="true">
+              <svg
+                class="w-7 h-7"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </span> -->
+              <a
+                href="#call"
+                title=""
+                class="inline-flex items-center justify-center border-b-2 border-mm-purple px-3 text-base font-bold leading-7 text-black transition-all duration-200 hover:border-opacity-75 font-pj focus:"
+                role="button"
+              >
+                contact us
+              </a>
+            </button>
+          </div>
+
+          <div
+            class="hidden lg:flex lg:ml-16 lg:items-center lg:justify-center lg:space-x-10 xl:space-x-16"
+          >
+            <!-- <a
+              href="#"
+              title=""
+              class="text-base font-bold text-gray-900 transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"
+            >
+              about
+            </a>
+
+            <a
+              href="#"
+              title=""
+              class="text-base font-bold text-gray-900 transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"
+            >
+              what we do
+            </a>
+
+            <a
+              href="#"
+              title=""
+              class="text-base font-bold text-gray-900 transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"
+            >
+              blog
+            </a>
+           -->
+          </div>
+
+          <div class="hidden lg:ml-auto lg:flex lg:items-center lg:space-x-10">
+            <a
+              href="index.html#call"
+              title=""
+              class="inline-flex items-center justify-center border-b-2 border-mm-purple px-3 text-base font-bold leading-7 text-black transition-all duration-200 hover:border-opacity-75 font-pj focus:"
+              role="button"
+            >
+              contact us
+            </a>
+          </div>
+        </div>
+
+        <!-- phone -->
+
+        <!-- <nav class="lg:hidden" x-show="expanded" x-collapse>
+          <div class="px-1 py-8">
+            <div class="grid gap-y-7">
+              <a
+                href="#"
+                title=""
+                class="flex items-center p-3 -m-3 text-base font-bold text-gray-900 transition-all duration-200 rounded-xl hover:bg-gray-50 focus:outline-none font-pj focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"
+              >
+                about
+              </a>
+
+              <a
+                href="#"
+                title=""
+                class="flex items-center p-3 -m-3 text-base font-bold text-gray-900 transition-all duration-200 rounded-xl hover:bg-gray-50 focus:outline-none font-pj focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"
+              >
+                what we do
+              </a>
+
+              <a
+                href="#"
+                title=""
+                class="flex items-center p-3 -m-3 text-base font-bold text-gray-900 transition-all duration-200 rounded-xl hover:bg-gray-50 focus:outline-none font-pj focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"
+              >
+                blog
+              </a>
+
+              <a
+                href="#"
+                title=""
+                class="inline-flex items-center justify-center px-6 py-3 text-base font-bold leading-7 text-white transition-all duration-200 bg-gray-900 border border-transparent rounded-xl hover:bg-gray-600 font-pj focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+                role="button"
+              >
+                contact us
+              </a>
+            </div>
+          </div>
+        </nav> -->
+      </div>
+    </header>
+    <!-- Calendly inline widget begin -->
+    <div
+      class="calendly-inline-widget"
+      data-url="https://calendly.com/d/3yn-5w7-74m?hide_gdpr_banner=1&primary_color=c44d9d"
+      style="min-width: 320px; height: 700px"
+    ></div>
+    <script
+      type="text/javascript"
+      src="https://assets.calendly.com/assets/external/widget.js"
+      async
+    ></script>
+    <!-- Calendly inline widget end -->
+  </body>
+</html>
